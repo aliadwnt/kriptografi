@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* Menambahkan beberapa properti tambahan */
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fefefe; /* Menambahkan warna teks */
+}
+
+input {
+    width: 100%;
+    padding: 15px; /* Mengurangi ukuran padding agar tidak terlalu besar */
+    font-size: 14px; /* Menambahkan ukuran font yang lebih besar */
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* Menambahkan garis tepi input */
+    border-radius: 5px; /* Memberikan sudut yang sedikit melengkung */
+}
+
+/* Mengganti warna background form dan teks warna putih */
+form {
+    width: 500px;
+    background: #0e447d;
+    margin: 50px auto;
+    padding: 20px; /* Mengubah padding agar lebih mudah dibaca */
+    border-radius: 10px; /* Memberikan sudut yang lebih melengkung */
+    color: white; /* Mengubah warna teks dalam form menjadi putih */
+}
+
+/* Menambahkan gaya hover untuk input */
+input:hover {
+    border-color: #999; /* Mengubah warna garis tepi saat dihover */
+    transition: border-color 0.3s ease; /* Efek transisi perubahan warna tepi */
+}
+
+/* Menambahkan style untuk tombol jika ada */
+button {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Menambahkan style hover untuk tombol */
+button:hover {
+    background-color: #555;
+}
+
+/* Apply your CSS styles here */
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
